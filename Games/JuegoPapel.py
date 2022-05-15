@@ -8,7 +8,7 @@ num = input("Escoge: Piedra, Papel o  Tijera: ").lower()
 #Creamos un numero aleatorio entre 1 y 3
 ale = random.randrange(1, 4)
 
-#Ler asignamos a cada numero un valor mediante la variable game
+#Le asignamos a cada numero un valor mediante la variable game
 if ale == 1:
     game = "Papel".lower()
 elif ale == 2:

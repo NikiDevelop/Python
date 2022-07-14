@@ -1,8 +1,6 @@
+#Creamos el juego de piedra, papel o tijera
+
 import random
-# 1 = Papel
-# 2 = Piedra
-# 3 = Tijera
-#Pedimos al usuario que elija entre piedra, papel o tijera
 num = input("Escoge: Piedra, Papel o  Tijera: ").lower()
 
 #Creamos un numero aleatorio entre 1 y 3
@@ -58,5 +56,5 @@ for i in range(3):
                 print("¡Empate!")
                 break
             else:
-                print("Error2")
+                print("Debes elegir entre piedra, papel o tijera")
                 break

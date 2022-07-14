@@ -1,9 +1,10 @@
-cadena = "Python"
-palabra = "Java"
-
-for i in range(len(cadena)-1, -1,-1):
-    print(cadena[i], end="")
+#Vamos a ver 2 formas de invertir una palabra
+palabra1 = "Python"
+palabra2 = "Java"
+#Forma 1
+for i in range(len(palabra1)-1, -1,-1):
+    print(palabra1[i], end="")
 
 print()
-
-print(palabra[::-1])
+#Forma 2
+print(palabra2[::-1])
